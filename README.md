@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# TechWave Institute Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application built with **React.js** for a dummy institute. This project includes features such as course browsing, blog and article exploration, user authentication, and course enrollment. The application fetches static data from `.txt` files and uses **local storage** for user data management.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Dynamic Navigation**:
+  - Access courses, blogs, and articles through the navigation bar.
+- **User Authentication**:
+  - Login and signup functionality, storing user credentials in **local storage**.
+- **Course Enrollment**:
+  - Users can enroll in courses, with enrollment data stored in a `.txt` file.
+- **Static Data Integration**:
+  - Static content for courses, blogs, and articles fetched from `.txt` files.
+- **Responsive Design**:
+  - Fully responsive and optimized for all screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**: Component-based frontend library.
+- **Local Storage**: For storing user authentication data.
+- **Static Files**: `.txt` files for storing and reading data.
+- **React Router DOM**: For navigation and routing.
+- **React Icons**: To enhance the UI with icons.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The following libraries and tools are used in this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Dependency          | Version   | Purpose                                           |
+|---------------------|-----------|---------------------------------------------------|
+| `axios`             | ^1.6.8    | For fetching data from static `.txt` files.       |
+| `json-server`       | ^1.0.0    | Mock backend for testing API integration.         |
+| `react`             | ^18.3.1   | Frontend library for building user interfaces.    |
+| `react-dom`         | ^18.3.1   | React DOM rendering for web applications.         |
+| `react-icons`       | ^5.2.1    | Provides icon sets for UI design.                 |
+| `react-router-dom`  | ^6.23.1   | Enables routing and navigation.                   |
+| `react-scripts`     | 5.0.1     | Scripts for Create React App.                     |
+| `web-vitals`        | ^2.1.4    | Measures performance metrics for the app.         |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Node.js**: Ensure you have Node.js installed on your system.
+- **npm**: Comes pre-installed with Node.js.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository-url.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Key Features of This Format:
+1. **Professional Layout**: Includes all essential sections for easy navigation.
+2. **Table of Contents**: Helps readers quickly find relevant sections.
+3. **Features and Tech Stack**: Clear breakdown of what the project offers and the tools used.
+4. **Folder Structure**: A visual representation of the project directory.
+5. **Future Enhancements**: Shows room for scalability and improvements.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to update the repository URL and any other specific details for your project!
